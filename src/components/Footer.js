@@ -30,7 +30,7 @@ const Footer = () => {
                     alt="online-status"
                     className="onlineStatus"
                   />{" "}
-                  Bot is online!
+                  Script is operational!
                 </span>
               </li>
             </ul>
