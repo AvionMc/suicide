@@ -17,7 +17,7 @@ export default function Commands() {
         <title>Commands | BOT</title>
         <meta
           name="description"
-          content="Commands page | Minimal and awesome discord bot website created with ❤️ using NextJS"
+          content="Features page | Awesome roblox script created with ❤️."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -39,15 +39,15 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>Customizable Silent Aim</kbd> -{" "}
-                  <span className="p-color">FOV,Target, Anti Aim Viewer, Anti Ground shots.</span>
+                  <kbd>Target</kbd> {" "}
+                  <span className="p-color">[FOV/ Target Type, Box Fov, Nearest Part / Point, Checks, Hit Chance).</span>
                 </li>
                 <li>
-                  <kbd>Camlock</kbd> -{" "}
-                  <span className="p-color">Easing Styles, Smoothing</span>
+                  <kbd>Aim Assist</kbd> {" "}
+                  <span className="p-color">[FOV / Target (Toggling), Camera/Mouse Method, Disable when [Flags], Checks, Shake, Nearest Part / Point)</span>
                 </li>
                 <li>
-                  <kbd></kbd> -{" "}
+                  <kbd></kbd> {" "}
                   <span className="p-color">Description of command</span>
                 </li>
               </ul>
@@ -56,18 +56,18 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
+              Visuals 👁
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>On Hit</kbd> -{" "}
+                  <span className="p-color">[Effect, Logs, Chams, Marker]</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>ESP</kbd> -{" "}
+                  <span className="p-color"> [Box (Corner, 2D), Health (Bar, Text), Armor (Bar, Text), Skeleton, ViewAngle / LookingAt, Highlight, Head Dot, Distance, Arrow. Flags, Tracer/Line]</span>
                 </li>
                 <li>
                   <kbd>$command3</kbd> -{" "}
