@@ -27,27 +27,27 @@ export default function Commands() {
         <nav className="accordion arrows" id="commands">
           <header className="box">
             <label htmlFor="acc-close" className="box-title h-color">
-              ⚡ Commands
+              Features
             </label>
           </header>
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
+              Combat
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Customizable Silent Aim</kbd> -{" "}
+                  <span className="p-color">FOV,Target, Anti Aim Viewer, Anti Ground shots.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Camlock</kbd> -{" "}
+                  <span className="p-color">Easing Styles, Smoothing</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
+                  <kbd></kbd> -{" "}
                   <span className="p-color">Description of command</span>
                 </li>
               </ul>
