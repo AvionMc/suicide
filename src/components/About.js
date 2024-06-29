@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </div>
         <p>
-          <Link href="/commands" className="h-color no-decoration">
+          <Link href="/features" className="h-color no-decoration">
             Check out the features &rarr;
           </Link>
         </p>
