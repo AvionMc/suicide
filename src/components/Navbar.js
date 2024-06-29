@@ -8,7 +8,7 @@ const Navbar = () => {
           <ul>
             <li>
               <Link className="h-color" href="/">
-                BOT
+                Suicide.lol
               </Link>
             </li>
           </ul>
