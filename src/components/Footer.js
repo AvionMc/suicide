@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="footer-items">
             <ul>
               <li>
-                <Link className="p-color" href="/commands">
+                <Link className="p-color" href="/features">
                   /commands
                 </Link>
               </li>
@@ -61,7 +61,7 @@ const Footer = () => {
             <p className="p-color">
               Created with ❤️ by{" "}
               <Link
-                href="https://github.com/preetsuthar17"
+                href="https://discord.gg/hpxjBTC6YN"
                 className="h-color no-decoration"
               >
                 Haafli & Menuchi

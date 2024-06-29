@@ -12,7 +12,7 @@ const JoinNow = () => {
         </div>
         <button className="btn">
           <Link className="h-color no-decoration" href="#">
-            Invite now!
+            Buy now!
           </Link>
         </button>
       </section>

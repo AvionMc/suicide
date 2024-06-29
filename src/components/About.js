@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-container">
           <div className="about-card">
             <div>
-              <h4 className="h-color">⚡ Commands</h4>
+              <h4 className="h-color">⚡ Quality</h4>
               <p className="p-color">
                 Our script offers great quality for an affordable price for anyone, and if you can't afford it you can still try and win our giveaways that we are hosting regularly!.
               </p>
