@@ -10,27 +10,26 @@ const Showcase = () => {
       animate={{ opacity: 1 }}
     >
       <main className="showcase">
-        <h1 className="showcase-header h-color">BOT</h1>
+        <h1 className="showcase-header h-color">Suicide.lol</h1>
         <h2 className="showcase-header-text h-color">
           The only da hood script you need!
         </h2>
         <p className="showcase-para p-color">
           Our script will fill in all your needs for an affordable price.
         </p>
-
         <span className="p-color">The script is currently operational with no flaws!</span>
         <div className="showcase-btn">
-          <button className="btn">
-            <Link className="h-color no-decoration" href="#">
+          <Link href="#">
+            <a className="btn h-color no-decoration">
               Cop now!
-            </Link>
-          </button>
+            </a>
+          </Link>
 
-          <button className="btn">
-            <Link className="h-color no-decoration" href="#">
+          <Link href="https://discord.gg/hpxjBTC6YN">
+            <a className="btn h-color no-decoration">
               Join server!
-            </Link>
-          </button>
+            </a>
+          </Link>
         </div>
       </main>
     </motion.div>
