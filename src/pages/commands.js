@@ -1,157 +1,61 @@
 import Head from "next/head";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 import { motion } from "framer-motion";
 
-export default function Commands() {
-  return (
-    <motion.div
-      initial={{
-        opacity: 0,
-      }}
-      animate={{ opacity: 1 }}
-    >
-      <Head>
-        <title>Features</title>
-        <meta
-          name="description"
-          content="Features page | A roblox lua script for da hood made with ❤️"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Navbar />
-      <section className="about-section">
-        <nav className="accordion arrows" id="commands">
-          <header className="box">
-            <label htmlFor="acc-close" className="box-title h-color">
-              ⚡ Commands
-            </label>
-          </header>
-          <input type="radio" name="accordion" id="cb1" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <input type="radio" name="accordion" id="cb2" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb2">
-              AntiLock 🐛
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <input type="radio" name="accordion" id="cb3" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
-              Customization 👀
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
+const features = [
+    { id: "cb1", title: "Combat", emoji: "🔥" },
+    { id: "cb2", title: "AntiLock", emoji: "🐛" },
+    { id: "cb3", title: "Customization", emoji: "👀" },
+    { id: "cb4", title: "Gameplay", emoji: "🎲" },
+    { id: "cb5", title: "Image", emoji: "🖼️" },
+];
 
-          <input type="radio" name="accordion" id="cb4" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb4">
-              Gameplay 🎲
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
+const commands = [
+    { command: "$command1", description: "Description of command" },
+    { command: "$command2", description: "Description of command" },
+    { command: "$command3", description: "Description of command" },
+];
 
-          <input type="radio" name="accordion" id="cb5" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb5">
-              Image 🖼️
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <input type="radio" name="accordion" id="acc-close" />
-        </nav>
-      </section>
-      <Footer />
-    </motion.div>
-  );
+export default function Features() {
+    return (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+            <Head>
+                <title>Features</title>
+                <meta name="description" content="Features page | A roblox lua script for da hood made with ❤️" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Navbar />
+            <section className="about-section">
+                <nav className="accordion arrows" id="features">
+                    <header className="box">
+                        <label htmlFor="acc-close" className="box-title h-color">
+                            Features 🔥
+                        </label>
+                    </header>
+                    {features.map((feature) => (
+                        <section key={feature.id} className="box">
+                            <input type="radio" name="accordion" id={feature.id} />
+                            <label className="box-title p-color" htmlFor={feature.id}>
+                                {feature.title} {feature.emoji}
+                            </label>
+                            <label className="box-close" htmlFor="acc-close"></label>
+                            <div className="box-content p-color">
+                                <ul>
+                                    {commands.map((cmd, index) => (
+                                        <li key={index}>
+                                            <kbd>{cmd.command}</kbd> - <span className="p-color">{cmd.description}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </section>
+                    ))}
+                    <input type="radio" name="accordion" id="acc-close" />
+                </nav>
+            </section>
+            <Footer />
+        </motion.div>
+    );
 }
