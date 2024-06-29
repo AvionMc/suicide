@@ -5,29 +5,28 @@ const About = () => {
     <>
       <section className="about-section" id="about-section">
         <div className="about-header">
-          <h3 className="h-color">Why use this bot?</h3>
+          <h3 className="h-color">Why purchase our script you may ask?</h3>
         </div>
         <div className="about-container">
           <div className="about-card">
             <div>
               <h4 className="h-color">⚡ Commands</h4>
               <p className="p-color">
-                We have more than 200 commands support in this bot.
+                Our script offers great quality for an affordable price for anyone, and if you can't afford it you can still try and win our giveaways that we are hosting regularly!.
               </p>
               <hr />
             </div>
             <div>
               <h4 className="h-color">✉️ 24/7 Support</h4>
               <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
+                Need help or have questions on how to purchase or how to use? Our support will help you whenever you need.
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✏️ Customization</h4>
+              <h4 className="h-color">✏⚡️ Optimization</h4>
               <p className="p-color">
-                Fully customizable discord bot completely FREE!
+                Our script receives frequent update to make sure our users have the smoothest experience possible!
               </p>
               <hr />
             </div>
@@ -35,7 +34,7 @@ const About = () => {
         </div>
         <p>
           <Link href="/commands" className="h-color no-decoration">
-            Check out Commands &rarr;
+            Check out the features &rarr;
           </Link>
         </p>
 

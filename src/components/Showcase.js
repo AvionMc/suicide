@@ -12,18 +12,17 @@ const Showcase = () => {
       <main className="showcase">
         <h1 className="showcase-header h-color">BOT</h1>
         <h2 className="showcase-header-text h-color">
-          The only discord bot you need!
+          The only da hood script you need!
         </h2>
         <p className="showcase-para p-color">
-          One of the awesome discord bot with tons of commands that will fill
-          your needs in your discord server.
+          Our script will fill in all your needs for an affordable price.
         </p>
 
-        <span className="p-color">Bot is online!</span>
+        <span className="p-color">The script is currently operational with no flaws!</span>
         <div className="showcase-btn">
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
-              Invite now!
+              Cop now!
             </Link>
           </button>
 

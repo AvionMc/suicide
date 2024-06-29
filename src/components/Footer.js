@@ -64,7 +64,7 @@ const Footer = () => {
                 href="https://github.com/preetsuthar17"
                 className="h-color no-decoration"
               >
-                Preet Suthar
+                Haafli & Menuchi
               </Link>
             </p>
             <p className="p-color">{year} &copy; All rights reserved!</p>
@@ -76,7 +76,7 @@ const Footer = () => {
             <Link
               target="_blank"
               className="p-color no-decoration"
-              href="https://github.com/preetsuthar17/discord-bot-website-template"
+              href="https://discord.gg/hpxjBTC6YN"
             >
               /source-code
             </Link>
