@@ -8,13 +8,13 @@ const JoinNow = () => {
           <h3>Join us now!</h3>
         </div>
         <div className="joinUs-para p-color">
-          Join our server to buy!{" "}
+          Join our server to buy!
         </div>
-        <button className="btn">
-          <Link className="h-color no-decoration" href="#">
+        <Link href="https://discord.gg/hpxjBTC6YN">
+          <a className="btn h-color no-decoration">
             Buy now!
-          </Link>
-        </button>
+          </a>
+        </Link>
       </section>
     </>
   );
