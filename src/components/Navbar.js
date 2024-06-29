@@ -21,8 +21,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="p-color" href="/features">
-                /commands
+              <Link className="p-color" href="/commands">
+                /features
               </Link>
             </li>
             <li>

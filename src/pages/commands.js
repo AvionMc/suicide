@@ -14,7 +14,7 @@ export default function Commands() {
       animate={{ opacity: 1 }}
     >
       <Head>
-        <title>Commands | BOT</title>
+        <title>Features</title>
         <meta
           name="description"
           content="Features page | Awesome roblox script created with ❤️."
@@ -47,7 +47,7 @@ export default function Commands() {
                   <span className="p-color">[FOV / Target (Toggling), Camera/Mouse Method, Disable when [Flags], Checks, Shake, Nearest Part / Point)</span>
                 </li>
                 <li>
-                  <kbd></kbd> {" "}
+                  <kbd></kbd> -{" "}
                   <span className="p-color">Description of command</span>
                 </li>
               </ul>
@@ -70,7 +70,7 @@ export default function Commands() {
                   <span className="p-color"> [Box (Corner, 2D), Health (Bar, Text), Armor (Bar, Text), Skeleton, ViewAngle / LookingAt, Highlight, Head Dot, Distance, Arrow. Flags, Tracer/Line]</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
+                  <kbd></kbd> -{" "}
                   <span className="p-color">Description of command</span>
                 </li>
               </ul>
@@ -79,17 +79,17 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
-              Customization 👀
+              Anti-Aim 🏃🏿
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
+                  <kbd>C-Sync</kbd> -{" "}
                   <span className="p-color">Description of command</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
+                  <kbd>Custom Velocity</kbd> -{" "}
                   <span className="p-color">Description of command</span>
                 </li>
                 <li>
