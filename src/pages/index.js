@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>BOT</title>
+        <title>Suicide.lol</title>
         <meta
           name="description"
-          content="Minimal and awesome discord bot website created with ❤️ using NextJS"
+          content="A roblox lua script created with love by Haafli and Menuchi."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
