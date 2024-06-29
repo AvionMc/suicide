@@ -37,21 +37,6 @@ const About = () => {
             Check out the features &rarr;
           </Link>
         </p>
-
-        <section className="about-stats">
-          <div className="about-stats-card">
-            <h4 className="h-color">17k+</h4>
-            <p className="p-color">Total Servers</p>
-          </div>
-          <div className="about-stats-card">
-            <h4 className="h-color">94k+</h4>
-            <p className="p-color">Total Users</p>
-          </div>
-          <div className="about-stats-card">
-            <h4 className="h-color">375k+</h4>
-            <p className="p-color">Total Commands</p>
-          </div>
-        </section>
       </section>
     </>
   );
