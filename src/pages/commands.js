@@ -56,7 +56,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
+              AntiLock 🐛
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
